@@ -18,5 +18,8 @@ but to improve the model I tried a couple of times after failing everytime I dec
 so after examining the related github repos I came across one where I adapted it for my code and trained for 20M timesteps and it looks like this
 this time training is for random velocity and orientation commands so that we can control it in simulation:
 
-{video}
+
+
+https://github.com/user-attachments/assets/2eceb027-0c00-480c-a1cd-b98b71b83f70
+
 
