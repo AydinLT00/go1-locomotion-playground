@@ -22,9 +22,11 @@ this time training is for random velocity and orientation commands so that we ca
 
 https://github.com/user-attachments/assets/2eceb027-0c00-480c-a1cd-b98b71b83f70
 
-
+Could not hardcode gait for the feet to move in certain phase, intersting to see the policy pick up a simple efficient trotting along training the robot although is feels like the simulation is in fast forward.
+A little bit tweaking the frequencies and timesteps result in slightly slower simulations yet the feet move slightly making it like the Go1 is sliding.
 
 https://github.com/user-attachments/assets/8c4b9915-cd60-44be-bd51-143812ed878d
+
 
 
 ### Phase 1: The Initial Prototype (Fixed Forward Walking)
