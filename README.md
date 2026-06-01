@@ -23,6 +23,10 @@ this time training is for random velocity and orientation commands so that we ca
 https://github.com/user-attachments/assets/2eceb027-0c00-480c-a1cd-b98b71b83f70
 
 
+
+https://github.com/user-attachments/assets/8c4b9915-cd60-44be-bd51-143812ed878d
+
+
 ### Phase 1: The Initial Prototype (Fixed Forward Walking)
 
 The initial phase focused on verifying that the GPU-parallelized physics loop worked correctly. It proved that 2,048 environments could run simultaneously on a single GPU without crashing or memory leaks.
