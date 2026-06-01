@@ -12,15 +12,19 @@ Why am I going through all this instead of just using google playground python l
 
 Now trying a simple RL implementation results in a very poor trained model as the Go1 tries to move forward by any means and it looks miserable. 
 
-{video}
+https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4
+
 <!-- <div class="media-container">
   <video class="project-media" autoplay loop muted playsinline>
       <source src="https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4" type="video/mp4">
   </video>
 </div> -->
 
-<video src="https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4" width="320" height="240" controls></video>
-
+<video class="project-media" autoplay loop muted playsinline>
+    <source src="https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4" type="video/mp4">
+</video>
+<!-- https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4 -->
+[![Watch the demo](thumbnail.png)](https://github.com/AydinLT00/go1-locomotion-playground/releases/download/10hz/first_attempt.mp4)
 but to improve the model I tried a couple of times after failing everytime I decided to check whether there are any available trained models so I can understand what is the issue with my reward function 
 so after examining the related github repos I came across one where I adapted it for my code and trained for 20M timesteps and it looks like this
 this time training is for random velocity and orientation commands so that we can control it in simulation:
