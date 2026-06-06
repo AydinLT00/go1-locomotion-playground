@@ -65,3 +65,14 @@ This repository uses several key optimization techniques to maximize training th
 1. **Zero-Copy Memory Mapping**: Using `wp.to_torch`, the raw Warp CUDA memory addresses of the simulator's states (`qpos`, `qvel`, `sensordata`) are mapped directly to PyTorch tensors. This completely eliminates CPU-GPU data transfer overhead during training loops.
 2. **CUDA Graph Capture**: Steps through the simulator $10$ times (`frame_skip = 10` for a $50\text{ Hz}$ control loop) to warm up and compile the underlying GPU kernels. These are captured in a static CUDA graph, bypassing runtime execution delays.
 3. **In-place Vectorized Resets**: Instead of resetting the entire simulation, only individual environments that hit termination states (such as falling over or experiencing numerical errors) are reset. Their configurations are re-written directly on the GPU without pausing the other active environments.
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/70c4f661-5da0-4f8b-9669-ded29c901ed6
+
+
